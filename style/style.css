@@ -1,0 +1,1414 @@
+* {
+    margin: 0 ;
+    padding: 0  ;
+    /* border: 1px solid red; */
+    font-family: Open Sans,Arial,sans-serif;
+}
+
+body {
+    width: 1920px;
+    overflow-x:hidden;
+    margin: 0 auto;
+}
+
+button {
+    background-color: rgb(207, 207, 207);
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+p {
+    font-family: Open Sans,Arial,sans-serif;
+}
+
+
+.header_title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 50px;
+    width: 1920px;
+}
+
+.header {
+    background: rgb(39, 39, 39);
+    height: 50px;
+    width: 1920px;
+}
+
+
+.header p {
+    color: white;
+    font-family: Open Sans,Arial,sans-serif;
+    font-size: 14px;
+}
+
+.header p:hover {
+    color: grey;
+    transition: all 0.2s ease;
+}
+
+.header_title_home {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: #e0e0e0;
+    padding: 18px;
+}
+
+.header_title_home p {
+    color: black;
+}
+
+.header_title_registracion {
+    padding-left: 200px;
+    display: flex;
+}
+
+.wrapper_search {
+    width: 1920px;
+    background-color: #e0e0e0;
+    height: 139px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.wrapper_search_all {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; 
+    margin: 0 auto;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    width: 1200px;
+    height: 140px;
+}
+
+.wrapper_search_all_logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+}
+
+.wrapper_search_all_form {
+    width: 100%;
+}
+
+.wrapper_search_all_form_action {
+    border-radius: 30px;
+    width: 700px;
+}
+
+input {
+    width: 650px;
+    border-radius: 30px;
+    height: 56px;
+    border: none;
+    padding: 2px 17px;
+    background-color: white;
+    font-size: 16px;
+}
+
+.wrapper_search_all_form_text p {
+    color: hsl(0, 5%, 11%);
+}
+
+.wrapper_search_all_form_text_phone {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.wrapper_search_all_form_text_email {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.wrapper_search_all_form_shop {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.wrapper_search_all_form_shop p {
+    color: black;
+}
+
+.wrapper_search_all_form_text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.wrapper_search_all_logo img {
+    width: 230px;
+}
+
+.wrapper_search_all_form_text_phone p {
+    border-bottom: 1px dotted;
+    gap: 5px;
+    font-family: Open Sans,Arial,sans-serif;
+    font-size: 15px;
+}
+
+.wrapper_search_all_form_text_phone {
+    gap: 5px;
+}
+
+.wrapper_search_all_form_text_email p {
+    border-bottom: 1px solid;
+    gap: 5px;
+    font-family: Open Sans,Arial,sans-serif;
+    font-size: 15px;
+}
+
+.wrapper_search_all_form_text_email {
+    gap: 5px;
+}
+
+.wrapper_search_all_form_shop {
+    margin-top: 40px;
+    gap: 10px;
+}
+
+.wrapper_search_all_form_cart_text {
+    font: 700 13px/13px Open Sans,Arial,sans-serif;
+}
+
+.wrapper_search_all_form_cart_price {
+    font: 300 13px/13px Open Sans,Arial,sans-serif;
+}
+
+.wrapper_search_all_form_shop_icons img {
+    width: 30px;
+}
+
+/* .hr header hr {
+    width: 1920px;
+} */
+
+.catalog {
+    height: 82px;
+    background-color: #e0e0e0;
+    width: 1920px;
+}
+
+.catalog_all {
+    display: flex;
+    /* flex-direction: row;
+    align-items: center; */
+    justify-content: center;
+    width: 1210px;
+    margin: 0 auto;
+}
+
+.catalog_all ul {
+    padding-top: 40px;
+}
+
+
+.catalog_all li {
+    display: inline;
+    margin: 0 20px;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: Open Sans,Arial,sans-serif;
+    margin-top: 15px;
+    color: black;
+}
+
+li:hover {
+    border-top: 1px solid black;
+    padding-top: 20px;
+}
+
+.catalog_all_action {
+    color: red;
+}
+
+.banner {
+    width: 1900px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    background-color: #fff;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+.banner_arrow_right, .banner_arrow_left {
+    width: 170px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+.banner_arrow_left img{
+    width: 50px;
+}
+
+.banner_arrow_right img{
+    width: 50px;
+}
+
+.banner_arrow_left:hover, .banner_arrow_right:hover {
+    background-color: rgb(219, 219, 219);
+}
+
+
+.catalogCar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1920px;
+    margin: 0 auto;
+}
+
+.catalogCar_icon {
+    display: grid;
+    grid-template-columns: 140px 140px 140px 140px 140px 140px 140px;
+    grid-template-rows: 140px 140px 140px 140px 140px; 
+    margin-top: 30px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.catalogCar_icon_brand {
+    border: 1px solid rgb(85, 85, 85);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.catalogCar_icon_brand img {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    width: 110px;
+    height: 110px;
+}
+
+.catalogCar_icon_brand > img:hover {
+    width: 120px;
+    height: 120px;
+    transition: all 0.2s linear;
+}
+
+.catalogCar_icon_brand:hover {
+    background-color: rgb(0, 0, 0);
+    opacity: 0.6;
+    transition: all 0.3s ease;
+}
+
+.catalogCar_icon_brand_vin {
+    position: absolute;
+    text-align: center;
+    color: black;
+    opacity: 0;
+    padding: 44px 23px 44px 23px;
+}
+
+
+.catalogCar_icon_brand_vin:hover {
+    position: absolute;
+    text-align: center;
+    color: white;
+    opacity: 1;
+    font-family: Open Sans,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.catalogCar_icon_brand_vin p:hover {
+    color: white;
+    opacity: 1;
+}
+
+/* .catalogCar_icon_brand_vin {
+    background-color: white;
+    opacity: 0;
+} */
+
+/* .catalogCar_icon_brand_vin:hover {
+    background-color: black;
+    opacity: 0.6;
+} */
+
+
+.atalogCar_icon_brand_logo {
+    background-color: black;
+}
+
+.news_description_title {
+    padding-bottom: 30px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.news {
+    width: 1920px;
+    padding-top: 50px;
+}
+
+.news_description {
+    width: 1100px;   
+    margin: 0 auto; 
+}
+
+.news_description img {
+    width: 100px;
+}
+
+.news_description_blockNews {
+    display: flex;
+    height: 100px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.news_description_blockNews_title {
+    /* padding-top: 10px; */
+}
+
+.news_description_blockNews_images {
+    padding-right: 20px;
+}
+
+.news_description_title_allNews p {
+    color: black;
+}
+
+footer {
+    width: 1920px;
+    background: rgb(39, 39, 39);    
+}
+
+.footer_info {
+    display: flex;
+    color: white;
+    width: 1400px;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 100px;
+    padding: 20px 0px 40px 0px;
+}
+
+.footer_info p {
+    padding: 2px;
+}
+
+.footer_info_link img {
+    width: 500px;
+    padding: 10px 0px 10px 0px;
+}
+
+.footer_info_link_logo img {
+    width: 30px;
+}
+
+.footer_info_details {
+    text-align: right;
+}
+
+.footer_info_link p {
+    color: white;
+}
+
+.contact {
+    display: inline-block;
+    align-items: center;
+    width: 1920px;
+    margin: 0 auto;
+}
+
+.contact_info_title, .contact_info_social {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.contact_info {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.contact_info img  {
+    width: 20px;
+    padding: 0px 10px 0px 10px;
+}
+
+.contact_info_social img  {
+    width: 50px;
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+.contact_info p {
+    padding: 10px 0px 10px 0px;
+}
+
+.contact hr {
+    margin: 10px 0px 10px 0px;
+}
+ 
+
+table {
+    border: 1px solid white;
+    border-collapse: collapse;
+    font-family: Open Sans,Arial,sans-serif;
+    overflow: auto;
+}
+
+th, td {
+    border: 1px solid rgb(189, 189, 189);
+}
+
+.cart table {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.cart_order_allButton {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0px 30px;
+}
+
+.cart_order_info {
+    background-color: #fcf8e3;
+    color: #8a6d3b;
+    padding: 20px 10px;
+    margin-bottom: 30px;
+    font-size: 13px;
+    width: fit-content;
+    border-radius: 10px;
+    border: 1px solid #dddac8;
+}
+
+.cart {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.cart_order_title {
+    font-weight: 700;
+    font-size: 25px;
+    margin: 30px 0px 30px;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    /* body, header {
+        width: 768px;
+    } */
+
+    .header {
+        /* width: 768px; */
+        height: 100px;
+    }
+
+    .header_title {
+        height: 100px;
+    }
+
+    .header_title p {
+        font-size: 23px;
+    }
+
+    .header_title_home {
+        padding: 40px;
+    }
+
+    .wrapper_search_all {
+        width: 1500px;
+    }
+
+    .wrapper_search {
+        height: 200px;
+    }
+
+    .wrapper_search_all_logo img {
+        width: 350px;
+    }
+
+    .wrapper_search_all_form p {
+        font-size: 25px;
+    }
+
+    .wrapper_search_all_form_action input {
+        width: 750px;
+        height: 70px;
+        border-radius: 50px;
+        font-size: 20px;
+    }
+
+    .wrapper_search_all_form_shop p{
+        font-size: 25px;
+        margin: 0px 0px 10px 10px;
+    }
+
+    .wrapper_search_all_form_shop {
+        width: 537px;
+    }
+
+    .catalog {
+        height: 100px;
+    }
+
+    .catalog_all {
+        width: 1760px;
+    }
+
+    .catalog_all li {
+        font-size: 25px;
+    }
+
+    .banner {
+        height: 450px;
+    }
+
+    .banner_images img{
+        height: 450px;
+    }
+
+    .catalogCar_icon {
+        grid-template-columns: 200px 200px 200px 200px 200px 200px 200px;
+        grid-template-rows: 200px 200px 200px 200px 200px;
+    }
+
+    .catalogCar_icon_brand img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .news_description {
+        width: 1500px;
+    }
+
+    .news_description_title p {
+        font-size: 40px;
+    }
+
+    .news_description_blockNews p {
+        font-size: 25px;
+    }
+
+    .news_description_blockNews_images img {
+        width: 250px;
+    }
+
+    .footer_info_link p {
+        font-size: 25px
+    }
+
+    .footer_info_details {
+        font-size: 25px
+    }
+
+    .footer_info {
+        width: 1700px;
+        gap: 200px;
+    }
+
+    .contact {
+        width: 1200px;
+        display: flex;
+    }
+
+}
+
+    @media screen and (max-width: 500px) {
+
+    
+        .header {
+            height: 700px;
+            width: 1770px;
+        }
+    
+        .header_title {
+            height: 650px;
+            display: flex;
+            flex-direction: column;
+            padding-top: 20px;
+            align-items: center;
+            width: 1770px;
+        }
+
+        .header_title_registracion {
+            padding-left: 0;
+            display: flex;
+        }
+    
+        .header_title p {
+            font-size: 40px;
+        }
+    
+        .header_title_home {
+            padding: 40px;
+        }
+    
+        .wrapper_search_all {
+            width: 1770px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+        }
+    
+        .wrapper_search {
+            height: 500px;
+            width: 1770px;
+        }
+
+        .wrapper_search_all_form {
+            width: 1200px;
+        }
+    
+        .wrapper_search_all_logo img {
+            width: 600px;
+        }
+    
+        .wrapper_search_all_form p {
+            font-size: 25px;
+        }
+    
+        .wrapper_search_all_form_action input {
+            width: 1220px;
+            height: 70px;
+            border-radius: 50px;
+            font-size: 40px;
+            margin-top: 40px;
+        }
+
+        .wrapper_search_all_form_text {
+            align-items: center;
+            justify-content: center;
+            padding-top: 20px;
+            font-size: 20px;
+        }
+    
+        .wrapper_search_all_form_text p {
+            font-size: 40px;
+        }
+
+        .wrapper_search_all_form_shop p{
+            font-size: 25px;
+            margin: 0px 0px 10px 10px;
+        }
+    
+        .wrapper_search_all_form_shop {
+            width: 300px;
+        }
+    
+        .catalog {
+            height: 480px;
+            width: 1770px;
+        }
+    
+        .catalog_all {
+            width: 1760px;
+            margin: 0;
+        }
+    
+        .catalog_all li {
+            font-size: 25px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+        }
+    
+        .banner {
+            height: 450px;
+            width: 1770px;
+            padding: 0;
+            margin: 0;
+        }
+    
+        .banner_images img{
+            height: 430px;
+        }
+
+        .catalogCar {
+            width: 1770px;
+            margin: 0 auto;
+        }
+
+
+        .catalogCar_icon {
+            grid-template-columns: 200px 200px 200px 200px 200px;
+            grid-template-rows: 200px 200px 200px 200px 200px 200px 200px;
+        }
+    
+        .catalogCar_icon_brand img {
+            width: 180px;
+            height: 180px;
+        }
+
+        .news {
+            width: 1770px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .news_description {
+            width: 1500px;
+        }
+    
+        .news_description_title p {
+            font-size: 40px;
+        }
+    
+        .news_description_blockNews p {
+            font-size: 25px;
+        }
+    
+        .news_description_blockNews_images img {
+            width: 250px;
+        }
+
+        .footer {
+            width: 1770px;
+        }
+    
+        .footer_info_link p {
+            font-size: 25px
+        }
+    
+        .footer_info_details {
+            font-size: 25px
+        }
+    
+        .footer_info {
+            width: 1700px;
+            gap: 50px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            font-size: 40px;
+        }
+
+        .footer_info_details, .footer_info_link p {
+            display: flex;
+            flex-direction: column;
+            text-align: center; 
+            font-size: 40px;
+        }
+
+        .contact {
+            width: 1200px;
+            display: flex;
+        }
+
+  }
+
+  @media screen and (max-width: 460px) {
+
+    
+    .header {
+        height: 700px;
+        width: 1685px;
+    }
+
+    .header_title {
+        height: 650px;
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+        align-items: center;
+        width: 1685px;
+    }
+
+    .header_title_registracion {
+        padding-left: 0;
+        display: flex;
+    }
+
+    .header_title p {
+        font-size: 40px;
+    }
+
+    .header_title_home {
+        padding: 40px;
+    }
+
+    .wrapper_search_all {
+        width: 1685px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .wrapper_search {
+        height: 500px;
+        width: 1685px;
+    }
+
+    .wrapper_search_all_form {
+        width: 1200px;
+    }
+
+    .wrapper_search_all_logo img {
+        width: 600px;
+    }
+
+    .wrapper_search_all_form p {
+        font-size: 25px;
+    }
+
+    .wrapper_search_all_form_action input {
+        width: 1220px;
+        height: 70px;
+        border-radius: 50px;
+        font-size: 40px;
+        margin-top: 40px;
+    }
+
+    .wrapper_search_all_form_text {
+        align-items: center;
+        justify-content: center;
+        padding-top: 20px;
+        font-size: 20px;
+    }
+
+    .wrapper_search_all_form_text p {
+        font-size: 40px;
+    }
+
+    .wrapper_search_all_form_shop p{
+        font-size: 25px;
+        margin: 0px 0px 10px 10px;
+    }
+
+    .wrapper_search_all_form_shop {
+        width: 300px;
+    }
+
+    .catalog {
+        height: 480px;
+        width: 1770px;
+    }
+
+    .catalog_all {
+        width: 1685px;
+        margin: 0;
+    }
+
+    .catalog_all li {
+        font-size: 25px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .banner {
+        height: 450px;
+        width: 1685px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .banner_images img{
+        height: 410px;
+    }
+
+    .catalogCar {
+        width: 1685px;
+        margin: 0;
+    }
+
+
+    .catalogCar_icon {
+        grid-template-columns: 200px 200px 200px 200px 200px;
+        grid-template-rows: 200px 200px 200px 200px 200px 200px 200px;
+    }
+
+    .catalogCar_icon_brand img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .news {
+        width: 1770px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .news_description {
+        width: 1500px;
+    }
+
+    .news_description_title p {
+        font-size: 40px;
+    }
+
+    .news_description_blockNews p {
+        font-size: 25px;
+    }
+
+    .news_description_blockNews_images img {
+        width: 250px;
+    }
+
+    .footer {
+        width: 1685px;
+    }
+
+    .footer_info_link p {
+        font-size: 25px
+    }
+
+    .footer_info_details {
+        font-size: 25px
+    }
+
+    .footer_info {
+        width: 1685px;
+        gap: 50px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .footer_info_details, .footer_info_link p {
+        display: flex;
+        flex-direction: column;
+        text-align: center; 
+        font-size: 40px;
+    }
+
+    .contact {
+        width: 1200px;
+        display: flex;
+    }
+
+    .cart table  {
+        margin: 0 auto;
+        width: 1000px;
+    }
+
+    .cart {
+        width: 1000px;
+    }
+
+
+}
+
+@media screen and (max-width: 395px) {
+
+    
+    .header {
+        height: 700px;
+        width: 1685px;
+    }
+
+    .header_title {
+        height: 650px;
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+        align-items: center;
+        width: 1610px;
+    }
+
+    .header_title_registracion {
+        padding-left: 0;
+        display: flex;
+    }
+
+    .header_title p {
+        font-size: 40px;
+    }
+
+    .header_title_home {
+        padding: 40px;
+    }
+
+    .wrapper_search_all {
+        width: 1610px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .wrapper_search {
+        height: 500px;
+        width: 1610px;
+    }
+
+    .wrapper_search_all_form {
+        width: 1200px;
+    }
+
+    .wrapper_search_all_logo img {
+        width: 600px;
+    }
+
+    .wrapper_search_all_form p {
+        font-size: 25px;
+    }
+
+    .wrapper_search_all_form_action input {
+        width: 1220px;
+        height: 70px;
+        border-radius: 50px;
+        font-size: 40px;
+        margin-top: 40px;
+    }
+
+    .wrapper_search_all_form_text {
+        align-items: center;
+        justify-content: center;
+        padding-top: 20px;
+        font-size: 20px;
+    }
+
+    .wrapper_search_all_form_text p {
+        font-size: 40px;
+    }
+
+    .wrapper_search_all_form_shop p{
+        font-size: 25px;
+        margin: 0px 0px 10px 10px;
+    }
+
+    .wrapper_search_all_form_shop {
+        width: 300px;
+    }
+
+    .catalog {
+        height: 480px;
+        width: 1610px;
+    }
+
+    .catalog_all {
+        width: 1610px;
+        margin: 0;
+    }
+
+    .catalog_all li {
+        font-size: 25px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .banner {
+        height: 450px;
+        width: 1610px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .banner_images img{
+        height: 410px;
+    }
+
+    .catalogCar {
+        width: 1610px;
+        margin: 0;
+    }
+
+
+    .catalogCar_icon {
+        grid-template-columns: 200px 200px 200px 200px 200px;
+        grid-template-rows: 200px 200px 200px 200px 200px 200px 200px;
+    }
+
+    .catalogCar_icon_brand img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .news {
+        width: 1770px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .news_description {
+        width: 1500px;
+    }
+
+    .news_description_title p {
+        font-size: 40px;
+    }
+
+    .news_description_blockNews p {
+        font-size: 25px;
+    }
+
+    .news_description_blockNews_images img {
+        width: 250px;
+    }
+
+    .footer {
+        width: 1610px;
+    }
+
+    .footer_info_link p {
+        font-size: 25px
+    }
+
+    .footer_info_details {
+        font-size: 25px
+    }
+
+    .footer_info {
+        width: 1610px;
+        gap: 50px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .footer_info_details, .footer_info_link p {
+        display: flex;
+        flex-direction: column;
+        text-align: center; 
+        font-size: 30px;
+    }
+
+    .contact {
+        width: 1000px;
+        display: flex;
+    }
+
+
+}
+
+@media screen and (max-width: 320px) {
+
+    
+    .header {
+        height: 700px;
+        width: 1685px;
+    }
+
+    .header_title {
+        height: 650px;
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+        align-items: center;
+        width: 1400px;
+    }
+
+    .header_title_registracion {
+        padding-left: 0;
+        display: flex;
+    }
+
+    .header_title p {
+        font-size: 40px;
+    }
+
+    .header_title_home {
+        padding: 40px;
+    }
+
+    .wrapper_search_all {
+        width: 1400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .wrapper_search {
+        height: 500px;
+        width: 1400px;
+    }
+
+    .wrapper_search_all_form {
+        width: 1200px;
+    }
+
+    .wrapper_search_all_logo img {
+        width: 600px;
+    }
+
+    .wrapper_search_all_form p {
+        font-size: 25px;
+    }
+
+    .wrapper_search_all_form_action input {
+        width: 1075px;
+        height: 70px;
+        border-radius: 50px;
+        font-size: 40px;
+        margin-top: 40px;
+    }
+
+    .wrapper_search_all_form_text {
+        align-items: center;
+        justify-content: center;
+        padding-top: 20px;
+        font-size: 20px;
+    }
+
+    .wrapper_search_all_form_text p {
+        font-size: 40px;
+    }
+
+    .wrapper_search_all_form_shop p{
+        font-size: 25px;
+        margin: 0px 0px 10px 10px;
+    }
+
+    .wrapper_search_all_form_shop {
+        width: 300px;
+    }
+
+    .catalog {
+        height: 480px;
+        width: 1400px;
+    }
+
+    .catalog_all {
+        width: 1400px;
+        margin: 0;
+    }
+
+    .catalog_all li {
+        font-size: 25px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .banner {
+        height: 450px;
+        width: 1280px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .banner_images img{
+        height: 300px;
+    }
+
+    .catalogCar {
+        width: 1400px;
+        margin: 0;
+    }
+
+
+    .catalogCar_icon {
+        grid-template-columns: 200px 200px 200px 200px;
+        grid-template-rows: 200px 200px 200px 200px 200px 200px 200px 200px; 
+    }
+
+    .catalogCar_icon_brand img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .news {
+        width: 1770px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .news_description {
+        width: 1500px;
+    }
+
+    .news_description_title p {
+        font-size: 40px;
+    }
+
+    .news_description_blockNews p {
+        font-size: 25px;
+    }
+
+    .news_description_blockNews_images img {
+        width: 250px;
+    }
+
+    .footer {
+        width: 1280px;
+    }
+
+    .footer_info_link p {
+        font-size: 25px
+    }
+
+    .footer_info_details {
+        font-size: 25px
+    }
+
+    .footer_info {
+        width: 1310px;
+        gap: 50px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .footer_info_details, .footer_info_link p {
+        display: flex;
+        flex-direction: column;
+        text-align: center; 
+        font-size: 30px;
+    }
+
+    .contact {
+        width: 1000px;
+        display: flex;
+    }
+
+}
+
+
+
+
+

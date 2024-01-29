@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <div class="header">
+            <div class="header_title">
+                <a href="./index.html"><div><p>Главная</p></a></div>
+                <a href="#"><div><p>Мои заказы</p></div></a>
+                <a href="#"><div><a href="#"><p>VIN-запрос</p></a></div></a>
+                <a href="#"><div><p>Обратная связь</p></div></a>
+                <a href="#"><div><p>Оплата и возврат</p></div></a>
+                <a href="#"><div><p>Новости</p></div></a>
+                <a href="contacts.html"><div><p>Контакты</p></div></a>
+                <a href="#"><div><p>Информация</p></div></a>
+                    <div class="header_title_registracion">
+                        <a href="#"><div><p>Вход</p></div></a>
+                        <div style="padding: 0px 5px 0px 5px;"><p>/</p></div>
+                        <a href="#"><div><p>Регистрация</p></div></a>
+                    </div>    
+            </div>                    
+        </div>
+    </header>
+
+    <div class="wrapper_search">
+        <div class="wrapper_search_all">
+            <div class="wrapper_search_all_logo">
+                <a href="./index.html"><img src="./images/logo/AutoBeat.png" alt=""></a>
+            </div>
+            <div class="wrapper_search_all_form">
+                <div class="wrapper_search_all_form_text">
+                    <div class="wrapper_search_all_form_text_phone">
+                        <img src="./images/icons/phone.png" alt="">
+                        <a href="#"><p>Заказать звонок</p></a>
+                    </div>
+                    <div class="wrapper_search_all_form_text_email">
+                        <img src="./images/icons/mail.png" alt="">
+                        <a href="mailto:zakaz@autobeat.by"><p>zakaz@autobeat.by</p></a>
+                    </div>
+                </div>
+                <div class="wrapper_search_all_form_action">
+                    <form action="">
+                        <input type="text" placeholder="Введите код запчасти или VIN автомобиля">
+                    </form>
+                </div>    
+            </div>             
+            <a href="cart.html"><div class="wrapper_search_all_form_shop">
+                <div class="wrapper_search_all_form_shop_icons">
+                    <img src="./images/icons/cart.png" alt="">
+                </div>
+            <div class="wrapper_search_all_form_cart">
+                <div class="wrapper_search_all_form_cart_text">
+                    <p>КОРЗИНА</p>
+                </div>
+                <div class="wrapper_search_all_form_cart_price">
+                    <p>на сумму: 20,30 BYN</p>
+                </div></a>
+                </div>
+            </div>
+        </div>
+    </div>        
+    <div class="hr_haeder">
+        <hr style="width: 1920px;">
+    </div>  
+
+   <div class="catalog">
+        <div class="catalog_all">
+            <ul>
+                <a href="#"><li style="color: red;">АКЦИЯ!</li></a>
+                <a href="#"><li>Шины</li></a>
+                <a href="#"><li>Антифриз</li></a>
+                <a href="#"><li>Масла КПП</li></a>
+                <a href="#"><li>Тормозная жидкость</li></a>
+                <a href="#"><li>Масла</li></a>
+                <a href="#"><li>Лампы</li></a>
+                <a href="#"><li>Аккумуляторы</li></a>
+                <a href="#"><li>Щётки стеклоочистителя</li></a>
+            </ul>
+        </div>
+   </div>
+
+   <div class="cart">
+        <div class="cart_order">
+            <div class="cart_order_title">
+               <p>Ваша корзина</p> 
+            </div>
+            <div class="cart_order_allButton">
+                <div class="cart_order_allButton_delete">
+                    <button><img src="./images/icons/delete.svg" alt="" width="12px" style="text-align: center;">Очистить корзину</button>
+                    <button><img src="./images/icons/close.svg" alt="" width="12px">Удалить отмеченное</button>
+                </div>
+                <div class="cart_order_allButton_save">
+                    <button><img src="./images/icons/done.svg" alt="" width="12px"> Сохранить</button>
+                    <button style="background-color: rgb(39, 39, 39); color: white;">Оформить заказ</button>
+                </div>
+            </div>
+            <table>
+                <tbody>
+                    <tr style="background-color: rgb(223, 223, 223); font-weight: 700; height: 50px;color: rgb(39, 39, 39); text-align: left; font-size: 12px;">
+                        <th>№</th>
+                        <th>Отправить</th>
+                        <th>Бренд</th>
+                        <th>Артикул</th>
+                        <th>Описание</th>
+                        <th>Срок</th>
+                        <th>Стат.</th>
+                        <th>Кол-во</th>
+                        <th>Наличие</th>
+                        <th>Цена BYN</th>
+                        <th>Сумма BYN</th>
+                        <th>Ваш комментарий</th>
+                        <th>Уд.</th>
+                    </tr>
+                    <tr style="background-color: rgb(63, 224, 63); height: 20px; color: rgb(78, 78, 78); font-size: 12px; text-align: center;">
+                        <td>1</td>
+                        <td><input type="checkbox" checked style="width: 15px;"></td>
+                        <td>Filtron</td>
+                        <td>OP525</td>
+                        <td>Фильтр масляный. VAG->05 Diesel</td>
+                        <td>На складе</td>
+                        <td><img src="./images/icons/stat.svg" alt=""> </td>
+                        <td><button style="border-radius: 5px 0px 0px 5px; border: 1px solid rgb(189, 189, 189);">-</button><input type="" value="1" style="border-radius: 0; width: 30px; padding: 0; margin: 0; height: 30px; text-align: center; border: 1px solid rgb(189, 189, 189)"><button style="border-radius: 0px 5px 5px 0px; border: 1px solid rgb(189, 189, 189)">+</button></td>
+                        <td>3</td>
+                        <td>20,30</td>
+                        <td>20,30</td>
+                        <td><input type="" style="border-radius: 0; width: 150px; padding: 0; margin: 0; height: 30px; "></p></td>
+                        <td><button style="border: none;">X</button></td>
+                    </tr>
+                    <tr style="height: 40px; text-align: right;">
+                        <td colspan="10">Сумма:</td>
+                        <td>20,30</td>
+                        <td colspan="2"></td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="cart_order_allButton">
+                <div class="cart_order_allButton_delete">
+                    <button><img src="./images/icons/delete.svg" alt="" width="12px">Очистить корзину</button>
+                    <button><img src="./images/icons/close.svg" alt="" width="12px">Удалить отмеченное</button>
+                </div>
+                <div class="cart_order_allButton_save">
+                    <button><img src="./images/icons/done.svg" alt="" width="12px"> Сохранить</button>
+                    <button style="background-color: rgb(39, 39, 39); color: white;">Оформить заказ</button>
+                </div>
+            </div>
+            <div class="cart_order_info">
+                <p>Обратите внимание, что заказ будет сформирован из позиций, отмеченных галочками. Позиции без галочек не будут отправлены и останутся в корзине.</p>
+            </div>
+        </div>
+   </div>
+
+
+   <footer class="footer">
+    <div class="footer_info">
+        <div class="footer_info_link">
+            <p><u>Режим работы</u></p>
+            <p>© 2019, Все права защищены.</p>
+            <p>Интернет-магазин запчастей.</p>
+            <img src="./images/banner/---.png" alt="">
+            <p>Присоединяйтесь:</p>
+                <div class="footer_info_link_logo">
+                    <a href="#"><img src="images/icons/insagram.png" alt=""></a>
+                    <a href="#"><img src="images/icons/vk.png" alt=""></a>
+                </div>               
+            <a href="#"><p><u>Публичная оферта</u></p></a>
+            <a href="#"><p><u>Работа в компании</u></p></a>
+            <a href="#"><p><u>Арендодателям</u></p></a>
+        </div>
+        <div class="footer_info_details">
+            <p>ООО «Автопровайдер»</p>
+            <p>УНП 193213583, ОКПО 502761825000,</p>
+            <p>Регистрация №193213583 Минский горисполком 22.02.2019</p>
+            <p>Банковские реквизиты: р/с BY58 BELB 3012 0167 Q200 1022 6000 (BYN)</p>
+            <p>в ОАО «Банк БелВЭБ»,БИК BELBBY2X</p>
+            <p>Адрес банка: 220004, г. Минск, пр-т Победителей, 29.</p>
+            <p>Юр. адрес: 220138, г. Минск, Геологическая, д. 87 Г, пом. 11, 2 этаж, к. 202</p>
+            <p>Регистрационный номер в Торговом реестре Республики Беларусь: 474509</p>
+               <p>Пункт выдачи заказов:</p>
+            <p>Минск, ул. Бельского, 14</p>
+            <p>Новополоцк, ул. Молодёжная, 103</p>
+            <p>Пинск, ул. Клубная, 3</p>
+            <p>Мозырь, пл. Максима Горького, 5</p>
+            <p>Борисов, ул. Строителей, 26</p>
+            <p>Светлогорск, ул. Луначарского, 78а</p>
+        </div>
+    </div>
+</footer>
+
+    
+</body>
+</html>
