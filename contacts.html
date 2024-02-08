@@ -12,22 +12,53 @@
     <header>
         <div class="header">
             <div class="header_title">
-                <a href="./index.html"><div><p>Главная</p></a></div>
+                <div class="header_title_home"><a href="#"><p>Главная</p></a></div>
                 <a href="#"><div><p>Мои заказы</p></div></a>
                 <a href="#"><div><a href="#"><p>VIN-запрос</p></a></div></a>
                 <a href="#"><div><p>Обратная связь</p></div></a>
                 <a href="#"><div><p>Оплата и возврат</p></div></a>
                 <a href="#"><div><p>Новости</p></div></a>
-                <div class="header_title_home"><a href="#"><p>Контакты</p></div></a>
+                <a href="contacts.html"><div><p>Контакты</p></div></a>
                 <a href="#"><div><p>Информация</p></div></a>
                     <div class="header_title_registracion">
                         <a href="#"><div><p>Вход</p></div></a>
                         <div style="padding: 0px 5px 0px 5px;"><p>/</p></div>
                         <a href="#"><div><p>Регистрация</p></div></a>
                     </div>    
-                </div>                    
+            </div>                    
         </div>
     </header>
+
+    <div class="hamburger-menu">
+        <input id="menu__toggle" type="checkbox" />
+        <label class="menu__btn" for="menu__toggle">
+          <span></span>
+        </label>
+        <ul class="menu__box">
+          <li><a class="menu__item" href="#">Главная</a></li>
+          <li><a class="menu__item" href="#">Мои заказы</a></li>
+          <li><a class="menu__item" href="#">Vin-запрос</a></li>
+          <li><a class="menu__item" href="#">Обратная свзяь</a></li>
+          <li><a class="menu__item" href="#">Оплата и возврат</a></li>
+          <li><a class="menu__item" href="#">новости</a></li>
+          <li><a class="menu__item" href="#">Контакты</a></li>
+          <li><a class="menu__item" href="#">Информация</a></li>
+          <li><a class="menu__item" href="#">Оплата и возврат</a></li>
+          <hr>
+          <li><a class="menu__item" href="#">Акция!</a></li>
+          <li><a class="menu__item" href="#">Шины</a></li>
+          <li><a class="menu__item" href="#">Антифризы</a></li>
+          <li><a class="menu__item" href="#">Масла КПП</a></li>
+          <li><a class="menu__item" href="#">Тормозная жидкость</a></li>
+          <li><a class="menu__item" href="#">Масла</a></li>
+          <li><a class="menu__item" href="#">Лампы</a></li>
+          <li><a class="menu__item" href="#">Аккумуляторы</a></li>
+          <li><a class="menu__item" href="#">Щётки стеклоочитсителя</a></li>
+
+        </ul>
+      </div>
+
+    
 
     <div class="wrapper_search">
         <div class="wrapper_search_all">
@@ -51,11 +82,11 @@
                     </form>
                 </div>    
             </div>             
-            <div class="wrapper_search_all_form_shop">
+            <a href="cart.html"><div class="wrapper_search_all_form_shop">
                 <div class="wrapper_search_all_form_shop_icons">
                     <img src="./images/icons/cart.png" alt="">
                 </div>
-                <a href="cart.html"><div class="wrapper_search_all_form_cart">
+            <div class="wrapper_search_all_form_cart">
                 <div class="wrapper_search_all_form_cart_text">
                     <p>КОРЗИНА</p>
                 </div>
@@ -65,29 +96,28 @@
                 </div>
             </div>
         </div>
-    </div>        
-    <div class="hr_haeder">
-        <hr>
     </div>  
+    <div class="hr_haeder">
+        <hr style="width: calc(100%-10px);">
+    </div>      
+
 
    <div class="catalog">
-    <div class="catalog_all">
-        <ul>
-            <a href="#"><li style="color: red;">АКЦИЯ!</li></a>
-            <a href="#"><li>Шины</li></a>
-            <a href="#"><li>Антифриз</li></a>
-            <a href="#"><li>Масла КПП</li></a>
-            <a href="#"><li>Тормозная жидкость</li></a>
-            <a href="#"><li>Масла</li></a>
-            <a href="#"><li>Лампы</li></a>
-            <a href="#"><li>Аккумуляторы</li></a>
-            <a href="#"><li>Щётки стеклоочистителя</li></a>
-        </ul>
-    </div>
-</div>
-
-
-   
+        <div class="catalog_all">
+            <ul>
+                <a href="#"><li style="color: red;">АКЦИЯ!</li></a>
+                <a href="#"><li>Шины</li></a>
+                <a href="#"><li>Антифриз</li></a>
+                <a href="#"><li>Масла КПП</li></a>
+                <a href="#"><li>Тормозная жидкость</li></a>
+                <a href="#"><li>Масла</li></a>
+                <a href="#"><li>Лампы</li></a>
+                <a href="#"><li>Аккумуляторы</li></a>
+                <a href="#"><li>Щётки стеклоочистителя</li></a>
+            </ul>
+        </div>
+   </div>
+ 
 
 <div class="contact">
     <div class="contact_info">
@@ -100,15 +130,15 @@
             <p>Режим работы:</p>
             <p>Пн - Пт 08:30 - 20:00</p>
             <p>Сб - Вс 09:00 - 19:00</p>
-            <p><img src="./images/icons/telephone.png" alt=""> +375339017373 / +375447787373 </p>
-            <script type="text/javascript" charset="utf-8" async="" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A8cdfe1072a636a180112e7fcb8ff58abf1ce98b532c877b74f3e06d64b1741fc&amp;width=1200&amp;height=368&amp;lang=ru_RU&amp;scroll=true"></script>
+            <p><img src="./images/icons/telephone.png" alt=""> +375339017373 / +375447787373 <img src="./images/icons/viber.png" alt=""></p>
+            <script type="text/javascript" charset="utf-8" async="" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A8cdfe1072a636a180112e7fcb8ff58abf1ce98b532c877b74f3e06d64b1741fc&amp;width=100%&amp;height=368&amp;lang=ru_RU&amp;scroll=true"></script>
         </div>
         <hr>
         <div class="contact_info_city">
             <div class="contact_info_title"><p>г. Новополоцк, ул. Молодёжная 103</p></div>
             <p>Режим работы:</p>
             <p>Пн - Вс 09:00 - 20:00</p>
-            <p><img src="./images/icons/telephone.png" alt="">+375293537801 / +375333573051 </p>
+            <p><img src="./images/icons/telephone.png" alt="">+375293537801 / +375333573051 <img src="./images/icons/viber.png" alt=""></p>
             <script type="text/javascript" charset="utf-8" async="" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Acfbe74fa3a5d90c329f9e320b2f19242771cf95853a6c798e85f6f73a629355b&amp;ampwidth=100%&amp;height=368&amp;lang=ru_RU&amp;scroll=true"></script>
         </div>
         <hr>
@@ -128,7 +158,7 @@
             <p>Пн - Пт 08:00 - 19:00</p>
             <p>Сб - Вс 08:00 - 18:00</p>
             <p><img src="./images/icons/telephone.png" alt="">+375292507801 / +375296617801<img src="./images/icons/viber.png" alt=""></p>
-            <script type="text/javascript" charset="utf-8" async="" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A4319478698c4b7265f7c0df7b317200305dd1abbb2b5eec7b3b4136ffb17a616&amp;width=1200&amp;height=368&amp;lang=ru_RU&amp;scroll=true"></script>
+            <script type="text/javascript" charset="utf-8" async="" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A4319478698c4b7265f7c0df7b317200305dd1abbb2b5eec7b3b4136ffb17a616&amp;width=100%&amp;height=368&amp;lang=ru_RU&amp;scroll=true"></script>
         </div>
         <hr>
         <div class="contact_info_city">
