@@ -79,8 +79,13 @@ p {
     padding: 80px 0;
     list-style: none;
     text-align: center;
-    background-color: #ECEFF1;
+    background-color: white;
     box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 100%;
+
   }
   /* элементы меню */
   .menu__item {
@@ -91,9 +96,11 @@ p {
     font-size: 20px;
     font-weight: 600;
     text-decoration: none;
+    text-align: left;
   }
   .menu__item:hover {
-    background-color: #CFD8DC;
+    background-color: rgb(39, 39, 39);
+    color: white;
   }
 
   #menu__toggle:checked ~ .menu__btn > span {
@@ -594,16 +601,22 @@ table {
     border-collapse: collapse;
     font-family: Open Sans,Arial,sans-serif;
     overflow: auto;
+    width: 1200px;
 }
 
 th, td {
     border: 1px solid rgb(189, 189, 189);
 }
 
-.cart table {
-    margin: 0 auto;
-    width: 1200px;
+.cart_table {
+    border-spacing: 0;
+    margin-bottom: 15px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    width: 100%;
 }
+
+
 
 .cart_order_allButton {
     display: flex;
@@ -774,6 +787,10 @@ th, td {
     .catalog {
         display: none;
     }
+    .wrapper_search_all_logo {
+        margin-right: 0px;
+    }
+
 
    
 }
@@ -791,6 +808,24 @@ th, td {
 
     .news_description_title_allNews p {
         font-size: 13px;
+    }
+
+    .cart_order_allButton {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .cart_order_allButton_delete {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .cart_order_allButton_save {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
     }
 
 }

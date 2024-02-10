@@ -29,6 +29,34 @@
         </div>
     </header>
 
+    <div class="hamburger-menu">
+        <input id="menu__toggle" type="checkbox" />
+        <label class="menu__btn" for="menu__toggle">
+          <span></span>
+        </label>
+        <ul class="menu__box">
+          <li><a class="menu__item" href="#">Главная</a></li>
+          <li><a class="menu__item" href="#">Мои заказы</a></li>
+          <li><a class="menu__item" href="#">Vin-запрос</a></li>
+          <li><a class="menu__item" href="#">Обратная свзяь</a></li>
+          <li><a class="menu__item" href="#">Оплата и возврат</a></li>
+          <li><a class="menu__item" href="#">Новости</a></li>
+          <li><a class="menu__item" href="#">Контакты</a></li>
+          <li><a class="menu__item" href="#">Информация</a></li>
+          <li><a class="menu__item" href="#">Оплата и возврат</a></li>
+          <hr>
+          <li><a class="menu__item" href="#">Акция!</a></li>
+          <li><a class="menu__item" href="#">Шины</a></li>
+          <li><a class="menu__item" href="#">Антифризы</a></li>
+          <li><a class="menu__item" href="#">Масла КПП</a></li>
+          <li><a class="menu__item" href="#">Тормозная жидкость</a></li>
+          <li><a class="menu__item" href="#">Масла</a></li>
+          <li><a class="menu__item" href="#">Лампы</a></li>
+          <li><a class="menu__item" href="#">Аккумуляторы</a></li>
+          <li><a class="menu__item" href="#">Щётки стеклоочитсителя</a></li>
+        </ul>
+      </div>
+
     
 
     <div class="wrapper_search">
@@ -70,10 +98,9 @@
     </div>  
     <div class="hr_haeder">
         <hr style="width: calc(100%-10px);">
-    </div>      
-
-
-   <div class="catalog">
+    </div>     
+    
+    <div class="catalog">
         <div class="catalog_all">
             <ul>
                 <a href="#"><li style="color: red;">АКЦИЯ!</li></a>
@@ -88,6 +115,7 @@
             </ul>
         </div>
    </div>
+
 
    <div class="cart">
         <div class="cart_order">
@@ -104,45 +132,49 @@
                     <button style="background-color: rgb(39, 39, 39); color: white;">Оформить заказ</button>
                 </div>
             </div>
-            <table>
-                <tbody>
-                    <tr style="background-color: rgb(223, 223, 223); font-weight: 700; height: 50px;color: rgb(39, 39, 39); text-align: left; font-size: 12px;">
-                        <th>№</th>
-                        <th>Отправить</th>
-                        <th>Бренд</th>
-                        <th>Артикул</th>
-                        <th>Описание</th>
-                        <th>Срок</th>
-                        <th>Стат.</th>
-                        <th>Кол-во</th>
-                        <th>Наличие</th>
-                        <th>Цена BYN</th>
-                        <th>Сумма BYN</th>
-                        <th>Ваш комментарий</th>
-                        <th>Уд.</th>
-                    </tr>
-                    <tr style="background-color: rgb(63, 224, 63); height: 20px; color: rgb(78, 78, 78); font-size: 12px; text-align: center;">
-                        <td>1</td>
-                        <td><input type="checkbox" checked style="width: 15px;"></td>
-                        <td>Filtron</td>
-                        <td>OP525</td>
-                        <td>Фильтр масляный. VAG->05 Diesel</td>
-                        <td>На складе</td>
-                        <td><img src="./images/icons/stat.svg" alt=""> </td>
-                        <td><button style="border-radius: 5px 0px 0px 5px; border: 1px solid rgb(189, 189, 189);">-</button><input type="" value="1" style="border-radius: 0; width: 30px; padding: 0; margin: 0; height: 30px; text-align: center; border: 1px solid rgb(189, 189, 189)"><button style="border-radius: 0px 5px 5px 0px; border: 1px solid rgb(189, 189, 189)">+</button></td>
-                        <td>3</td>
-                        <td>20,30</td>
-                        <td>20,30</td>
-                        <td><input type="" style="border-radius: 0; width: 150px; padding: 0; margin: 0; height: 30px; "></p></td>
-                        <td><button style="border: none;">X</button></td>
-                    </tr>
-                    <tr style="height: 40px; text-align: right;">
-                        <td colspan="10">Сумма:</td>
-                        <td>20,30</td>
-                        <td colspan="2"></td>
-                    </tr>
-                </tbody>
-            </table>
+
+            <div class="cart_table">
+                <table>
+                    <tbody>
+                        <tr style="background-color: rgb(223, 223, 223); font-weight: 700; height: 50px;color: rgb(39, 39, 39); text-align: left; font-size: 12px;">
+                            <th>№</th>
+                            <th>Отправить</th>
+                            <th>Бренд</th>
+                            <th>Артикул</th>
+                            <th>Описание</th>
+                            <th>Срок</th>
+                            <th>Стат.</th>
+                            <th>Кол-во</th>
+                            <th>Наличие</th>
+                            <th>Цена BYN</th>
+                            <th>Сумма BYN</th>
+                            <th>Ваш комментарий</th>
+                            <th>Уд.</th>
+                        </tr>
+                        <tr style="background-color: rgb(63, 224, 63); height: 20px; color: rgb(78, 78, 78); font-size: 12px; text-align: center;">
+                            <td>1</td>
+                            <td><input type="checkbox" checked style="width: 15px;"></td>
+                            <td>Filtron</td>
+                            <td>OP525</td>
+                            <td>Фильтр масляный. VAG->05 Diesel</td>
+                            <td>На складе</td>
+                            <td><img src="./images/icons/stat.svg" alt=""> </td>
+                            <td><button style="border-radius: 5px 0px 0px 5px; border: 1px solid rgb(189, 189, 189);">-</button><input type="" value="1" style="border-radius: 0; width: 30px; padding: 0; margin: 0; height: 30px; text-align: center; border: 1px solid rgb(189, 189, 189)"><button style="border-radius: 0px 5px 5px 0px; border: 1px solid rgb(189, 189, 189)">+</button></td>
+                            <td>3</td>
+                            <td>20,30</td>
+                            <td>20,30</td>
+                            <td><input type="" style="border-radius: 0; width: 150px; padding: 0; margin: 0; height: 30px; "></p></td>
+                            <td><button style="border: none;">X</button></td>
+                        </tr>
+                        <tr style="height: 40px; text-align: right;">
+                            <td colspan="10">Сумма:</td>
+                            <td>20,30</td>
+                            <td colspan="2"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
             <div class="cart_order_allButton">
                 <div class="cart_order_allButton_delete">
                     <button><img src="./images/icons/delete.svg" alt="" width="12px">Очистить корзину</button>
